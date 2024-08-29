@@ -1,20 +1,17 @@
-
-- [EMS](#ems)
-  - [Abstract](#abstract)
-  - [Dataset: EMS](#dataset-ems)
-  - [Benchmark](#benchmark)
-  - [Model: MSNet](#model-msnet)
-    - [Model Architecture](#model-architecture)
-    - [Requirements](#requirements)
-    - [Training](#training)
-    - [Validation](#validation)
-    - [Testing](#testing)
-  - [Citation](#citation)
-  - [Acknowledgments](#acknowledgments)
-
 # EMS
 This project provides the EMS dataset, the benchmark results, and the code of MSNet for **'EMS: A Large-Scale Eye Movement Dataset, Benchmark, and New Model for Schizophrenia Recognition'**, IEEE TNNLS 2024. [Paper link](https://ieeexplore.ieee.org/document/10645682).
 
+- [Abstract](#abstract)
+- [Dataset: EMS](#dataset-ems)
+- [Benchmark](#benchmark)
+- [Model: MSNet](#model-msnet)
+  - [Model Architecture](#model-architecture)
+  - [Requirements](#requirements)
+  - [Training](#training)
+  - [Validation](#validation)
+  - [Testing](#testing)
+- [Citation](#citation)
+- [Acknowledgments](#acknowledgments)
 
 ## Abstract
 Schizophrenia (SZ) is a common and disabling mental illness, and most patients encounter cognitive deficits. The eye-tracking technology has been increasingly used to characterize cognitive deficits for its reasonable time and economic costs. However, there is no large-scale and publicly available eye movement dataset and benchmark for SZ recognition. To address these issues, we release a large-scale Eye Movement dataset for SZ recognition (EMS), which consists of eye movement data from 104 schizophrenics and 104 healthy controls (HCs) based on the free-viewing paradigm with 100 stimuli. We also conduct the first comprehensive benchmark, which has been absent for a long time in this field, to compare the related 13 psychosis recognition methods using six metrics. Besides, we propose a novel mean-shift-based network (MSNet) for eye movement-based SZ recognition, which elaborately combines the mean shift algorithm with convolution to extract the cluster center as the subject feature, In MSNet, first, a stimulus feature branch (SFB) is adopted to enhance each stimulus feature with similar information from all stimulus features, and then, the cluster center branch (CCB) is utilized to generate the cluster center as subject feature and update it by the mean shift vector. The performance of our MSNet is superior to prior contenders, thus, it can act as a powerful baseline to advance subsequent study. 
@@ -39,18 +36,6 @@ We retained the eye movement data of 48 subjects as the test set and the remaini
    (Each row of prob_test.txt: subject id, probability, probability after binarization)
  3. Email your .txt file to songyingjie_shu@163.com
  4. if you want to submit your model to this benchmark, please mention "I want to submit metrics of the model to the benchmark" in the email. The averaged metrics on the validation set, the .txt file for the test set and the name of your model are also needed in the email. If you have a publication for your model, please mention it in the email so that we can link to your metrics in the benchmark. 
-<style type="text/css">
-.tg  {border-collapse:collapse;border-spacing:0;}
-.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
-  overflow:hidden;padding:10px 5px;word-break:normal;}
-.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
-  font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
-.tg .tg-9wq8{border-color:inherit;text-align:center;vertical-align:middle}
-.tg .tg-c3ow{border-color:inherit;text-align:center;vertical-align:top}
-.tg .tg-6v7n{border-color:inherit;color:#ff0000;font-weight:bold;text-align:center;vertical-align:top}
-.tg .tg-wgv3{border-color:inherit;color:#3166ff;font-weight:bold;text-align:center;vertical-align:top}
-.tg .tg-gaoc{border-color:inherit;color:#333333;text-align:center;vertical-align:top}
-</style>
 <table class="tg"><thead>
   <tr>
     <th class="tg-9wq8" rowspan="2">Models</th>

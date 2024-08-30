@@ -1,18 +1,17 @@
 # EMS
 This project provides the EMS dataset, the benchmark results, and the code of MSNet for **'EMS: A Large-Scale Eye Movement Dataset, Benchmark, and New Model for Schizophrenia Recognition'**, IEEE TNNLS 2024. [Paper link](https://ieeexplore.ieee.org/document/10645682).
 
-- [EMS](#ems)
-  - [Abstract](#abstract)
-  - [Dataset: EMS](#dataset-ems)
-  - [Benchmark](#benchmark)
-  - [Model: MSNet](#model-msnet)
-    - [Model Architecture](#model-architecture)
-    - [Requirements](#requirements)
-    - [Training](#training)
-    - [Validation](#validation)
-    - [Testing](#testing)
-  - [Citation](#citation)
-  - [Acknowledgments](#acknowledgments)
+- [Abstract](#abstract)
+- [Dataset: EMS](#dataset-ems)
+- [Benchmark](#benchmark)
+- [Model: MSNet](#model-msnet)
+  - [Model Architecture](#model-architecture)
+  - [Requirements](#requirements)
+  - [Training](#training)
+  - [Validation](#validation)
+  - [Testing](#testing)
+- [Citation](#citation)
+- [Acknowledgments](#acknowledgments)
 
 ## Abstract
 Schizophrenia (SZ) is a common and disabling mental illness, and most patients encounter cognitive deficits. The eye-tracking technology has been increasingly used to characterize cognitive deficits for its reasonable time and economic costs. However, there is no large-scale and publicly available eye movement dataset and benchmark for SZ recognition. To address these issues, we release a large-scale Eye Movement dataset for SZ recognition (EMS), which consists of eye movement data from 104 schizophrenics and 104 healthy controls (HCs) based on the free-viewing paradigm with 100 stimuli. We also conduct the first comprehensive benchmark, which has been absent for a long time in this field, to compare the related 13 psychosis recognition methods using six metrics. Besides, we propose a novel mean-shift-based network (MSNet) for eye movement-based SZ recognition, which elaborately combines the mean shift algorithm with convolution to extract the cluster center as the subject feature, In MSNet, first, a stimulus feature branch (SFB) is adopted to enhance each stimulus feature with similar information from all stimulus features, and then, the cluster center branch (CCB) is utilized to generate the cluster center as subject feature and update it by the mean shift vector. The performance of our MSNet is superior to prior contenders, thus, it can act as a powerful baseline to advance subsequent study. 

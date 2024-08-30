@@ -37,221 +37,222 @@ We retained the eye movement data of 48 subjects as the test set and the remaini
    (Each row of prob_test.txt: subject id, probability, probability after binarization)
  3. Email your .txt file to songyingjie_shu@163.com
  4. if you want to submit your model to this benchmark, please mention "I want to submit metrics of the model to the benchmark" in the email. The averaged metrics on the validation set, the .txt file for the test set and the name of your model are also needed in the email. If you have a publication for your model, please mention it in the email so that we can link to your metrics in the benchmark. 
-<table class="tg"><thead>
+
+<table><thead>
   <tr>
-    <th class="tg-9wq8" rowspan="2">Models</th>
-    <th class="tg-c3ow" colspan="6">Validation Set</th>
-    <th class="tg-c3ow" colspan="6">Test Set</th>
+    <th  rowspan="2">Models</th>
+    <th  colspan="6">Validation Set</th>
+    <th  colspan="6">Test Set</th>
   </tr>
   <tr>
-    <th class="tg-c3ow">Acc.</th>
-    <th class="tg-c3ow">Sen.</th>
-    <th class="tg-c3ow">Spe.</th>
-    <th class="tg-c3ow">AUC</th>
-    <th class="tg-c3ow">Pre.</th>
-    <th class="tg-c3ow">F1-score</th>
-    <th class="tg-c3ow">Acc.</th>
-    <th class="tg-c3ow">Sen.</th>
-    <th class="tg-c3ow">Spe.</th>
-    <th class="tg-c3ow">AUC</th>
-    <th class="tg-c3ow">Pre.</th>
-    <th class="tg-c3ow">F1-score</th>
+    <th >Acc.</th>
+    <th >Sen.</th>
+    <th >Spe.</th>
+    <th >AUC</th>
+    <th >Pre.</th>
+    <th >F1-score</th>
+    <th >Acc.</th>
+    <th >Sen.</th>
+    <th >Spe.</th>
+    <th >AUC</th>
+    <th >Pre.</th>
+    <th >F1-score</th>
   </tr></thead>
 <tbody>
   <tr>
-    <td class="tg-c3ow"> <a href="https://www.sciencedirect.com/science/article/pii/S0165032722003251" >EDB_SVM</a></td>
-    <td class="tg-c3ow">0.7313 </td>
-    <td class="tg-c3ow">0.7156 </td>
-    <td class="tg-c3ow">0.7396 </td>
-    <td class="tg-c3ow">0.8086 </td>
-    <td class="tg-c3ow">0.7240 </td>
-    <td class="tg-c3ow">0.7195 </td>
-    <td class="tg-c3ow">0.6875 </td>
-    <td class="tg-c3ow">0.6667 </td>
-    <td class="tg-c3ow">0.7083 </td>
-    <td class="tg-c3ow">0.7813 </td>
-    <td class="tg-c3ow">0.6957 </td>
-    <td class="tg-c3ow">0.6809 </td>
+    <td > <a href="https://www.sciencedirect.com/science/article/pii/S0165032722003251" >EDB_SVM</a></td>
+    <td >0.7313 </td>
+    <td >0.7156 </td>
+    <td >0.7396 </td>
+    <td >0.8086 </td>
+    <td >0.7240 </td>
+    <td >0.7195 </td>
+    <td >0.6875 </td>
+    <td >0.6667 </td>
+    <td >0.7083 </td>
+    <td >0.7813 </td>
+    <td >0.6957 </td>
+    <td >0.6809 </td>
   </tr>
   <tr>
-    <td class="tg-c3ow"><a href="https://www.sciencedirect.com/science/article/pii/S0165032722003251" >EDB_QDA</a></td>
-    <td class="tg-c3ow">0.7063 </td>
-    <td class="tg-c3ow">0.6026 </td>
-    <td class="tg-c3ow">0.7993 </td>
-    <td class="tg-c3ow">0.7205 </td>
-    <td class="tg-c3ow">0.7403 </td>
-    <td class="tg-c3ow">0.6638 </td>
-    <th class="tg-c3ow">0.7500 </td>
-    <td class="tg-c3ow">0.6667 </td>
-    <td class="tg-c3ow">0.8333 </td>
-    <td class="tg-c3ow">0.8073 </td>
-    <td class="tg-c3ow">0.8000 </td>
-    <td class="tg-c3ow">0.7273 </td>
+    <td ><a href="https://www.sciencedirect.com/science/article/pii/S0165032722003251" >EDB_QDA</a></td>
+    <td >0.7063 </td>
+    <td >0.6026 </td>
+    <td >0.7993 </td>
+    <td >0.7205 </td>
+    <td >0.7403 </td>
+    <td >0.6638 </td>
+    <td >0.7500 </td>
+    <td >0.6667 </td>
+    <td >0.8333 </td>
+    <td >0.8073 </td>
+    <td >0.8000 </td>
+    <td >0.7273 </td>
   </tr>
   <tr>
-    <td class="tg-c3ow"><a href="https://www.sciencedirect.com/science/article/pii/S0165032722003251" >EDB_BYS</a></td>
-    <td class="tg-c3ow">0.7000 </td>
-    <td class="tg-c3ow">0.6065 </td>
-    <td class="tg-c3ow">0.7785 </td>
-    <td class="tg-c3ow">0.7987 </td>
-    <td class="tg-c3ow">0.7061 </td>
-    <td class="tg-c3ow">0.6510 </td>
-    <td class="tg-c3ow">0.7292 </td>
-    <td class="tg-c3ow">0.5833 </td>
-    <td class="tg-c3ow">0.8750</td>
-    <td class="tg-c3ow">0.7413 </td>
-    <td class="tg-c3ow">0.8235</td>
-    <td class="tg-c3ow">0.6829 </td>
+    <td ><a href="https://www.sciencedirect.com/science/article/pii/S0165032722003251" >EDB_BYS</a></td>
+    <td >0.7000 </td>
+    <td >0.6065 </td>
+    <td >0.7785 </td>
+    <td >0.7987 </td>
+    <td >0.7061 </td>
+    <td >0.6510 </td>
+    <td >0.7292 </td>
+    <td >0.5833 </td>
+    <td >0.8750</td>
+    <td >0.7413 </td>
+    <td >0.8235</td>
+    <td >0.6829 </td>
   </tr>
   <tr>
-    <td class="tg-c3ow"><a href="https://www.sciencedirect.com/science/article/pii/S0167865520303536" >ESR_SVM</a></td>
-    <td class="tg-c3ow">0.7938 </td>
-    <td class="tg-c3ow">0.7946 </td>
-    <td class="tg-c3ow">0.7847 </td>
-    <td class="tg-c3ow">0.8498 </td>
-    <td class="tg-c3ow">0.7859 </td>
-    <td class="tg-c3ow">0.7889 </td>
-    <td class="tg-c3ow">0.7500 </td>
-    <td class="tg-c3ow">0.7083 </td>
-    <td class="tg-c3ow">0.7917 </td>
-    <td class="tg-c3ow">0.7760 </td>
-    <td class="tg-c3ow">0.7727 </td>
-    <td class="tg-c3ow">0.7391 </td>
+    <td ><a href="https://www.sciencedirect.com/science/article/pii/S0167865520303536" >ESR_SVM</a></td>
+    <td >0.7938 </td>
+    <td >0.7946 </td>
+    <td >0.7847 </td>
+    <td >0.8498 </td>
+    <td >0.7859 </td>
+    <td >0.7889 </td>
+    <td >0.7500 </td>
+    <td >0.7083 </td>
+    <td >0.7917 </td>
+    <td >0.7760 </td>
+    <td >0.7727 </td>
+    <td >0.7391 </td>
   </tr>
   <tr>
-    <td class="tg-c3ow"><a href="https://www.sciencedirect.com/science/article/pii/S0167865520303536" >ESR_RF</a></td>
-    <td class="tg-c3ow">0.7625 </td>
-    <td class="tg-c3ow">0.7540 </td>
-    <td class="tg-c3ow">0.7639 </td>
-    <td class="tg-c3ow">0.8521 </td>
-    <td class="tg-c3ow">0.7549 </td>
-    <td class="tg-c3ow">0.7538 </td>
-    <td class="tg-c3ow">0.7292 </td>
-    <td class="tg-c3ow">0.7083 </td>
-    <td class="tg-c3ow">0.7500 </td>
-    <td class="tg-c3ow">0.7760 </td>
-    <td class="tg-c3ow">0.7391 </td>
-    <td class="tg-c3ow">0.7234 </td>
+    <td ><a href="https://www.sciencedirect.com/science/article/pii/S0167865520303536" >ESR_RF</a></td>
+    <td >0.7625 </td>
+    <td >0.7540 </td>
+    <td >0.7639 </td>
+    <td >0.8521 </td>
+    <td >0.7549 </td>
+    <td >0.7538 </td>
+    <td >0.7292 </td>
+    <td >0.7083 </td>
+    <td >0.7500 </td>
+    <td >0.7760 </td>
+    <td >0.7391 </td>
+    <td >0.7234 </td>
   </tr>
   <tr>
-    <td class="tg-c3ow"><a href="https://www.sciencedirect.com/science/article/pii/S0923596521000369" >IAS</a></td>
-    <td class="tg-c3ow">0.7563 </td>
-    <td class="tg-c3ow">0.7634 </td>
-    <td class="tg-c3ow">0.7500 </td>
-    <td class="tg-c3ow">0.8180 </td>
-    <td class="tg-c3ow">0.7770 </td>
-    <td class="tg-c3ow">0.7572 </td>
-    <td class="tg-c3ow">0.7500 </td>
-    <td class="tg-c3ow">0.6667 </td>
-    <td class="tg-c3ow">0.8333 </td>
-    <td class="tg-c3ow">0.8229 </td>
-    <td class="tg-c3ow">0.8000 </td>
-    <td class="tg-c3ow">0.7273 </td>
+    <td ><a href="https://www.sciencedirect.com/science/article/pii/S0923596521000369" >IAS</a></td>
+    <td >0.7563 </td>
+    <td >0.7634 </td>
+    <td >0.7500 </td>
+    <td >0.8180 </td>
+    <td >0.7770 </td>
+    <td >0.7572 </td>
+    <td >0.7500 </td>
+    <td >0.6667 </td>
+    <td >0.8333 </td>
+    <td >0.8229 </td>
+    <td >0.8000 </td>
+    <td >0.7273 </td>
   </tr>
   <tr>
-    <td class="tg-c3ow"><a href="https://openaccess.thecvf.com/content_iccv_2017/html/Jiang_Learning_Visual_Attention_ICCV_2017_paper.html">LVA</a></td>
-    <td class="tg-c3ow">0.8188 </td>
-    <td class="tg-c3ow">0.7766 </td>
-    <td class="tg-c3ow">0.8585 </td>
-    <td class="tg-c3ow">0.8987</td>
-    <td class="tg-c3ow">0.8552 </td>
-    <td class="tg-c3ow">0.8096 </td>
-    <td class="tg-c3ow">0.7083 </td>
-    <td class="tg-c3ow">0.6667 </td>
-    <td class="tg-c3ow">0.7500 </td>
-    <td class="tg-c3ow">0.8038 </td>
-    <td class="tg-c3ow">0.7273 </td>
-    <td class="tg-c3ow">0.6957 </td>
+    <td ><a href="https://openaccess.thecvf.com/content_iccv_2017/html/Jiang_Learning_Visual_Attention_ICCV_2017_paper.html">LVA</a></td>
+    <td >0.8188 </td>
+    <td >0.7766 </td>
+    <td >0.8585 </td>
+    <td >0.8987</td>
+    <td >0.8552 </td>
+    <td >0.8096 </td>
+    <td >0.7083 </td>
+    <td >0.6667 </td>
+    <td >0.7500 </td>
+    <td >0.8038 </td>
+    <td >0.7273 </td>
+    <td >0.6957 </td>
   </tr>
   <tr>
-    <td class="tg-c3ow"><a href="https://ieeexplore.ieee.org/abstract/document/9506702">DDB_DoF</a></td>
-    <td class="tg-c3ow">0.7250 </td>
-    <td class="tg-c3ow">0.7872 </td>
-    <td class="tg-c3ow">0.6727 </td>
-    <td class="tg-c3ow">0.7645 </td>
-    <td class="tg-c3ow">0.7254 </td>
-    <td class="tg-c3ow">0.7446 </td>
-    <td class="tg-c3ow">0.6667 </td>
-    <td class="tg-c3ow">0.8333 </td>
-    <td class="tg-c3ow">0.5000 </td>
-    <td class="tg-c3ow">0.7483 </td>
-    <td class="tg-c3ow">0.6250 </td>
-    <td class="tg-c3ow">0.7143 </td>
+    <td ><a href="https://ieeexplore.ieee.org/abstract/document/9506702">DDB_DoF</a></td>
+    <td >0.7250 </td>
+    <td >0.7872 </td>
+    <td >0.6727 </td>
+    <td >0.7645 </td>
+    <td >0.7254 </td>
+    <td >0.7446 </td>
+    <td >0.6667 </td>
+    <td >0.8333 </td>
+    <td >0.5000 </td>
+    <td >0.7483 </td>
+    <td >0.6250 </td>
+    <td >0.7143 </td>
   </tr>
   <tr>
-    <td class="tg-c3ow"><a href="https://ieeexplore.ieee.org/abstract/document/9506702">DDB</a></td>
-    <td class="tg-c3ow">0.7313 </td>
-    <td class="tg-c3ow">0.7866 </td>
-    <td class="tg-c3ow">0.6873 </td>
-    <td class="tg-c3ow">0.7772 </td>
-    <td class="tg-c3ow">0.7394 </td>
-    <td class="tg-c3ow">0.7512 </td>
-    <td class="tg-c3ow">0.7083 </td>
-    <td class="tg-c3ow">0.6667 </td>
-    <td class="tg-c3ow">0.7500 </td>
-    <td class="tg-c3ow">0.7882 </td>
-    <td class="tg-c3ow">0.7273 </td>
-    <td class="tg-c3ow">0.6957 </td>
+    <td ><a href="https://ieeexplore.ieee.org/abstract/document/9506702">DDB</a></td>
+    <td >0.7313 </td>
+    <td >0.7866 </td>
+    <td >0.6873 </td>
+    <td >0.7772 </td>
+    <td >0.7394 </td>
+    <td >0.7512 </td>
+    <td >0.7083 </td>
+    <td >0.6667 </td>
+    <td >0.7500 </td>
+    <td >0.7882 </td>
+    <td >0.7273 </td>
+    <td >0.6957 </td>
   </tr>
   <tr>
-    <td class="tg-c3ow"><a href="https://ieeexplore.ieee.org/abstract/document/9956876">DVP</a></td>
-    <td class="tg-c3ow">0.7875 </td>
-    <td class="tg-c3ow">0.7548 </td>
-    <td class="tg-c3ow">0.8056 </td>
-    <td class="tg-c3ow">0.8516 </td>
-    <td class="tg-c3ow">0.8206 </td>
-    <td class="tg-c3ow">0.7769 </td>
-    <td class="tg-c3ow">0.7500 </td>
-    <td class="tg-c3ow">0.7083 </td>
-    <td class="tg-c3ow">0.7917 </td>
-    <td class="tg-c3ow">0.8194 </td>
-    <td class="tg-c3ow">0.7727 </td>
-    <td class="tg-c3ow">0.7391 </td>
+    <td ><a href="https://ieeexplore.ieee.org/abstract/document/9956876">DVP</a></td>
+    <td >0.7875 </td>
+    <td >0.7548 </td>
+    <td >0.8056 </td>
+    <td >0.8516 </td>
+    <td >0.8206 </td>
+    <td >0.7769 </td>
+    <td >0.7500 </td>
+    <td >0.7083 </td>
+    <td >0.7917 </td>
+    <td >0.8194 </td>
+    <td >0.7727 </td>
+    <td >0.7391 </td>
   </tr>
   <tr>
-    <td class="tg-c3ow"><a href="https://ieeexplore.ieee.org/abstract/document/10419365">GPI_LSTM</a></td>
-    <td class="tg-c3ow">0.7125 </td>
-    <td class="tg-c3ow">0.6881 </td>
-    <td class="tg-c3ow">0.7424 </td>
-    <td class="tg-c3ow">0.7953 </td>
-    <td class="tg-c3ow">0.7291 </td>
-    <td class="tg-c3ow">0.6947 </td>
-    <td class="tg-c3ow">0.6875 </td>
-    <td class="tg-c3ow">0.7917 </td>
-    <td class="tg-c3ow">0.5833 </td>
-    <td class="tg-c3ow">0.7726 </td>
-    <td class="tg-c3ow">0.6552 </td>
-    <td class="tg-c3ow">0.7170 </td>
+    <td ><a href="https://ieeexplore.ieee.org/abstract/document/10419365">GPI_LSTM</a></td>
+    <td >0.7125 </td>
+    <td >0.6881 </td>
+    <td >0.7424 </td>
+    <td >0.7953 </td>
+    <td >0.7291 </td>
+    <td >0.6947 </td>
+    <td >0.6875 </td>
+    <td >0.7917 </td>
+    <td >0.5833 </td>
+    <td >0.7726 </td>
+    <td >0.6552 </td>
+    <td >0.7170 </td>
   </tr>
   <tr>
-    <td class="tg-c3ow"><a href="https://ieeexplore.ieee.org/abstract/document/10419365">GPI_GRU</a></td>
-    <td class="tg-c3ow">0.7063 </td>
-    <td class="tg-c3ow">0.7045 </td>
-    <td class="tg-c3ow">0.7188 </td>
-    <td class="tg-c3ow">0.7798 </td>
-    <td class="tg-c3ow">0.7219 </td>
-    <td class="tg-c3ow">0.6983 </td>
-    <td class="tg-c3ow">0.7500 </td>
-    <td class="tg-c3ow">0.7083 </td>
-    <td class="tg-c3ow">0.7917 </td>
-    <td class="tg-c3ow">0.8125 </td>
-    <td class="tg-c3ow">0.7727 </td>
-    <td class="tg-c3ow">0.7391 </td>
+    <td ><a href="https://ieeexplore.ieee.org/abstract/document/10419365">GPI_GRU</a></td>
+    <td >0.7063 </td>
+    <td >0.7045 </td>
+    <td >0.7188 </td>
+    <td >0.7798 </td>
+    <td >0.7219 </td>
+    <td >0.6983 </td>
+    <td >0.7500 </td>
+    <td >0.7083 </td>
+    <td >0.7917 </td>
+    <td >0.8125 </td>
+    <td >0.7727 </td>
+    <td >0.7391 </td>
   </tr>
   <tr>
-    <td class="tg-c3ow"><a href="https://ieeexplore.ieee.org/document/10645682">MSNet</a></td>
-    <td class="tg-c3ow">0.8313 </td>
-    <td class="tg-c3ow">0.8051 </td>
-    <td class="tg-c3ow">0.8708 </td>
-    <td class="tg-c3ow">0.8972</td>
-    <td class="tg-c3ow">0.8575 </td>
-    <td class="tg-c3ow">0.8244 </td>
-    <td class="tg-c3ow">0.8125 </td>
-    <td class="tg-c3ow">0.8333 </td>
-    <td class="tg-c3ow">0.7917 </td>
-    <td class="tg-c3ow">0.8854 </td>
-    <td class="tg-c3ow">0.8000</td>
-    <td class="tg-c3ow">0.8163 </td>
+    <td ><a href="https://ieeexplore.ieee.org/document/10645682">MSNet</a></td>
+    <td >0.8313 </td>
+    <td >0.8051 </td>
+    <td >0.8708 </td>
+    <td >0.8972</td>
+    <td >0.8575 </td>
+    <td >0.8244 </td>
+    <td >0.8125 </td>
+    <td >0.8333 </td>
+    <td >0.7917 </td>
+    <td >0.8854 </td>
+    <td >0.8000</td>
+    <td >0.8163 </td>
   </tr>
 </tbody></table>
 

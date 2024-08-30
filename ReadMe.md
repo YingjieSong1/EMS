@@ -289,14 +289,14 @@ $ python data_process/split_fix.py --dataset_dir path_of_dataset
 Run the following command to train 
 
 ```bash
-$ python train.py --dataset_dir path_of_dataset -set_name Set_1
+$ python train.py --dataset_dir path_of_dataset --set_name Set_1
 ```
 
 ### Validation 
 Run the following command for each validation set 
 
 ```bash
-$ python val.py --dataset_dir path_of_dataset -set_name Set_1
+$ python val.py --dataset_dir path_of_dataset --set_name Set_1
 ```
 
 Run the following command to compute the threshold for each validation set
@@ -314,7 +314,7 @@ $ python data_process/metrics_val.py
 ### Testing
  run the code using 
 ```bash
-$ python test.py --dataset_dir path_of_dataset -set_name Set_1
+$ python test.py --dataset_dir path_of_dataset --set_name Set_1
 ```
 
 ## Citation

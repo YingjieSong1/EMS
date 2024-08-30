@@ -1,17 +1,18 @@
 # EMS
 This project provides the EMS dataset, the benchmark results, and the code of MSNet for **'EMS: A Large-Scale Eye Movement Dataset, Benchmark, and New Model for Schizophrenia Recognition'**, IEEE TNNLS 2024. [Paper link](https://ieeexplore.ieee.org/document/10645682).
 
-- [Abstract](#abstract)
-- [Dataset: EMS](#dataset-ems)
-- [Benchmark](#benchmark)
-- [Model: MSNet](#model-msnet)
-  - [Model Architecture](#model-architecture)
-  - [Requirements](#requirements)
-  - [Training](#training)
-  - [Validation](#validation)
-  - [Testing](#testing)
-- [Citation](#citation)
-- [Acknowledgments](#acknowledgments)
+- [EMS](#ems)
+  - [Abstract](#abstract)
+  - [Dataset: EMS](#dataset-ems)
+  - [Benchmark](#benchmark)
+  - [Model: MSNet](#model-msnet)
+    - [Model Architecture](#model-architecture)
+    - [Requirements](#requirements)
+    - [Training](#training)
+    - [Validation](#validation)
+    - [Testing](#testing)
+  - [Citation](#citation)
+  - [Acknowledgments](#acknowledgments)
 
 ## Abstract
 Schizophrenia (SZ) is a common and disabling mental illness, and most patients encounter cognitive deficits. The eye-tracking technology has been increasingly used to characterize cognitive deficits for its reasonable time and economic costs. However, there is no large-scale and publicly available eye movement dataset and benchmark for SZ recognition. To address these issues, we release a large-scale Eye Movement dataset for SZ recognition (EMS), which consists of eye movement data from 104 schizophrenics and 104 healthy controls (HCs) based on the free-viewing paradigm with 100 stimuli. We also conduct the first comprehensive benchmark, which has been absent for a long time in this field, to compare the related 13 psychosis recognition methods using six metrics. Besides, we propose a novel mean-shift-based network (MSNet) for eye movement-based SZ recognition, which elaborately combines the mean shift algorithm with convolution to extract the cluster center as the subject feature, In MSNet, first, a stimulus feature branch (SFB) is adopted to enhance each stimulus feature with similar information from all stimulus features, and then, the cluster center branch (CCB) is utilized to generate the cluster center as subject feature and update it by the mean shift vector. The performance of our MSNet is superior to prior contenders, thus, it can act as a powerful baseline to advance subsequent study. 
@@ -98,9 +99,9 @@ We retained the eye movement data of 48 subjects as the test set and the remaini
     <td >0.6510 </td>
     <td >0.7292 </td>
     <td >0.5833 </td>
-    <td >0.8750</td>
+    <td ><b>0.8750</b></td>
     <td >0.7413 </td>
-    <td >0.8235</td>
+    <td ><b>0.8235</b></td>
     <td >0.6829 </td>
   </tr>
   <tr>
@@ -153,7 +154,7 @@ We retained the eye movement data of 48 subjects as the test set and the remaini
     <td >0.8188 </td>
     <td >0.7766 </td>
     <td >0.8585 </td>
-    <td >0.8987</td>
+    <td ><b>0.8987</b></td>
     <td >0.8552 </td>
     <td >0.8096 </td>
     <td >0.7083 </td>
@@ -172,7 +173,7 @@ We retained the eye movement data of 48 subjects as the test set and the remaini
     <td >0.7254 </td>
     <td >0.7446 </td>
     <td >0.6667 </td>
-    <td >0.8333 </td>
+    <td ><b>0.8333</b> </td>
     <td >0.5000 </td>
     <td >0.7483 </td>
     <td >0.6250 </td>
@@ -240,18 +241,18 @@ We retained the eye movement data of 48 subjects as the test set and the remaini
   </tr>
   <tr>
     <td ><a href="https://ieeexplore.ieee.org/document/10645682">MSNet</a></td>
-    <td >0.8313 </td>
-    <td >0.8051 </td>
-    <td >0.8708 </td>
+    <td ><b>0.8313</b> </td>
+    <td ><b>0.8051</b> </td>
+    <td ><b>0.8708</b> </td>
     <td >0.8972</td>
-    <td >0.8575 </td>
-    <td >0.8244 </td>
-    <td >0.8125 </td>
-    <td >0.8333 </td>
+    <td ><b>0.8575</b> </td>
+    <td ><b>0.8244</b> </td>
+    <td ><b>0.8125</b> </td>
+    <td ><b>0.8333</b> </td>
     <td >0.7917 </td>
-    <td >0.8854 </td>
+    <td ><b>0.8854</b> </td>
     <td >0.8000</td>
-    <td >0.8163 </td>
+    <td ><b>0.8163</b> </td>
   </tr>
 </tbody></table>
 

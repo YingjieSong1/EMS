@@ -35,7 +35,7 @@ We retained the eye movement data of 48 subjects as the test set and the remaini
  2. Run your model to compute predictions for the test set and save the predictions as [prob_test.txt](./prob_test.txt)
    (Each row of prob_test.txt: subject id, probability, probability after binarization)
  3. Email your .txt file to songyingjie_shu@163.com
- 4. if you want to submit your model to this benchmark, please mention "I want to submit metrics of the model to the benchmark" in the email. The averaged metrics on the validation set, the .txt file for the test set and the name of your model are also needed in the email. If you have a publication for your model, please mention it in the email so that we can link to your metrics in the benchmark. 
+ 4. If you want to submit your model to this benchmark, please mention "I want to submit metrics of model to the benchmark" in the email. The averaged metrics on the validation set, the .txt file for the test set and the name of your model are also needed in the email. If you have a publication for your model, please mention it in the email so that we can link to your metrics in the benchmark. 
 
 <table><thead>
   <tr>

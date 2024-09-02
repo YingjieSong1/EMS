@@ -7,9 +7,9 @@ This project provides the EMS dataset, the benchmark results, and the code of MS
 - [Model: MSNet](#model-msnet)
   - [Model Architecture](#model-architecture)
   - [Requirements](#requirements)
-  - [Training](#training)
+  - [Train](#train)
   - [Validation](#validation)
-  - [Testing](#testing)
+  - [Test](#test)
 - [Citation](#citation)
 - [Acknowledgments](#acknowledgments)
 
